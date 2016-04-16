@@ -5,8 +5,10 @@ Read about the [Web SDK](https://github.com/juliostanley/websdk)
 # How to run
 
 ```
-npm install juliostanley/websdk-samples
-npm run build
+git clone git@github.com:juliostanley/websdk-samples.git
+cd websdk-samples
+npm install
+npm build
 npm start
 ```
 
