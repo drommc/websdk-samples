@@ -8,7 +8,7 @@ Read about the [Web SDK](https://github.com/juliostanley/websdk)
 git clone git@github.com:juliostanley/websdk-samples.git
 cd websdk-samples
 npm install
-npm build
+npm run build
 npm start
 ```
 
