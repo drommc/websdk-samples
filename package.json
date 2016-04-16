@@ -1,0 +1,36 @@
+{
+  "name": "websdk-samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test"                : "echo \"Error: no test specified\" && exit 1"
+    ,"start"              : "live-server --path=../../samples/public"
+    ,"postinstall"        : "bower install"
+    ,"postupdate"         : "bower update"
+    ,"build"              : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts"
+    ,"build:help"         : "node ./samples/src/web/build/index.js --help"
+    ,"build:profile"      : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --pf"
+    ,"build:watch"        : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --w"
+    ,"build:watch:dist"   : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --w --env prod --kl"
+    ,"build:watch:css"    : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --w --env prod --smcss"
+    ,"build:watch:raw"    : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --w --devtool="
+    ,"build:debug"        : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --w --env prod --kl --sm"
+    ,"build:debug:css"    : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --w --env prod --kl --sm --smcss"
+    ,"build:dist"         : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --w --env prod"
+    ,"sdk:link"           : "rimraf ./node_modules/websdk && cd ./node_modules && sudo cmd /c mklink websdk ..\\app_moduless\\websdk"
+    ,"deps"               : "npm list --depth=0"
+    ,"git:nicer"          : "git config diff.submodule log"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "websdk"         : "0.0.5"
+    ,"lodash"        : "3.10.1"
+    ,"bower"         : "1.7.9"
+    ,"angular"       : "1.4.7"
+    ,"jquery"        : "2.2.3"
+    ,"rimraf"        : "2.5.2"
+    ,"babel-runtime" : "5.8.34"
+  }
+}
