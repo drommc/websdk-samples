@@ -25,7 +25,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "websdk"         : "juliostanley/websdk#528851c"
+    "websdk"         : "juliostanley/websdk#5f5d7acaffd0f3c"
     ,"lodash"        : "3.10.1"
     ,"bower"         : "1.7.9"
     ,"angular"       : "1.4.7"
