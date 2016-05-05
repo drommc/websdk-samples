@@ -4,7 +4,7 @@ var tmpl = require('./title-angular.htm');
 
 // Imports
 import lib from 'demo/lib';
-import objectExtend from 'lodash/object/extend'; // Cause this is a sample
+import objectExtend from 'lodash/extend'; // Cause this is a sample
 
 // Classes are just sugar, technically they are stil a good'ol Function :)
 class TitleAngular {

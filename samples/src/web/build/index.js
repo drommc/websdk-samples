@@ -6,14 +6,14 @@ var
 // =========== It is possible to modify the way the build works, we will get the defaults for now
 // // Set where we are serving the artifacts from
 // build.config.output.publicPath = '/artifacts/';
-
-// // Remove this filter when creating multiple entry points (NOTE: This should be renamed anyways)
+// delete build.config.entry.start; // Remove the start for now
+// build.config.websdk.enableCommon = true; // Enables the common bundle
+// 
+// Find a plugin and remove it if needed, you should install (depend) on webpack:
 // build.conig.plugins = build.config.plugins.filter(function(plugin){
-//   return !(plugin instanceof require('webpacck').optimize.CommonsChunkPlugin && plugin.chunkNames === 'common');
+//   return !(plugin instanceof require('webpack').optimize.CommonsChunkPlugin && plugin.chunkNames === 'common');
 // });
 
-// delete build.config.entry.common; // Remove any vendor
-// delete build.config.entry.start; // Remove the start for now
 // ============
 
 
