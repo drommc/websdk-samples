@@ -4,6 +4,7 @@
 // imports though :)
 // =======================================
 require('./demo.less');
+require('./demo.sass'); // Cause why not... you also have bourbon and compass btw
 
 var
   settings = require('./settings.yaml')
