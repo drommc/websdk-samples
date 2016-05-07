@@ -1,10 +1,11 @@
 {
   "name": "websdk-samples",
   "version": "1.0.1",
-  "description": "",
+  "description": "Samples for https://github.com/juliostanley/websdk",
+  "repository": "https://github.com/juliostanley/websdk-samples",
   "main": "index.js",
   "scripts": {
-    "test"                : "echo \"Error: no test specified\" && exit 1"
+    "test"                : "echo \"Error: no test specified\""
     ,"start"              : "live-server --path=../../samples/public"
     ,"postinstall"        : "bower install"
     ,"postupdate"         : "bower update"
