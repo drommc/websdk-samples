@@ -1,5 +1,7 @@
 # Web SDK [SAMPLES]
 
+[![Circle CI](https://circleci.com/gh/juliostanley/websdk-samples.svg?style=svg)](https://circleci.com/gh/juliostanley/websdk-samples)
+
 Read about the [Web SDK](https://github.com/juliostanley/websdk)
 
 # How to run

@@ -1,6 +1,6 @@
 dependencies:
   override:
-    - npm install websdk@1.0.0 # Circle CI does not pickup devDependencies... seems counterintuitive
+    # - npm install websdk@1.0.0 # Circle CI does not pickup devDependencies... seems counterintuitive
     - npm install
 test:
   pre:
