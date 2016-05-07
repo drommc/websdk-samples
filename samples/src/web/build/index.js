@@ -32,9 +32,9 @@ Object
 ;
 
 // Sample on how to remove plugins (this would remove the context plugin)
-build.config.plugins = build.config.plugins.filter(function(plugin){
-  return !(build.plugins.context===plugin);
-});
+// build.config.plugins = build.config.plugins.filter(function(plugin){
+//   return !(build.plugins.context===plugin);
+// });
 
 // You can pass arguments like --sc demo,someotherentry to create a building scope and you decide what it means
 console.log('Combine building scope with build.websdk.disableClean = true, to make partial builds of your project when its to big. >1000 files');
