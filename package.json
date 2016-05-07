@@ -1,6 +1,6 @@
 {
   "name": "websdk-samples",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     ,"postinstall"        : "bower install"
     ,"postupdate"         : "bower update"
     ,"build"              : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts"
+    ,"build:demo"         : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --sc demo,maybeother"
     ,"build:help"         : "node ./samples/src/web/build/index.js --help"
     ,"build:profile"      : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --pf"
     ,"build:watch"        : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --w"
@@ -37,7 +38,7 @@
     ,"lodash"            : "4.11.2"
   }
   ,"devDepndencies" : {
-    "websdk"  : "juliostanley/websdk#5d060d7285802ab"
+    "websdk"  : "juliostanley/websdk#b832b82551878c8"
     ,"bower"  : "1.7.9"
     ,"rimraf" : "2.5.2"
   }
