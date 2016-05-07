@@ -19,7 +19,7 @@
     ,"build:watch:raw"    : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --w --devtool="
     ,"build:debug"        : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --w --env prod --kl --sm"
     ,"build:debug:css"    : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --w --env prod --kl --sm --smcss"
-    ,"build:dist"         : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --w --env prod"
+    ,"build:dist"         : "node ./samples/src/web/build/index.js --od ./samples/public/artifacts --env prod"
     ,"sdk:link"           : "rimraf ./node_modules/websdk && cd ./node_modules && sudo cmd /c mklink /D websdk ..\\app_modules\\websdk"
     ,"deps"               : "npm list --depth=0"
     ,"git:nicer"          : "git config diff.submodule log"
